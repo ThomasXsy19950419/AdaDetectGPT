@@ -1,5 +1,5 @@
 torch
-numpy
+numpy==1.26.4  # 锁定1.x版本，适配pyarrow/datasets
 transformers==4.28.1
 datasets==2.12.0
 fsspec==2023.9.2
@@ -12,5 +12,6 @@ rank-bm25
 selenium
 nltk
 textattack
+pyarrow==8.0.0  # 适配datasets==2.12.0的最优版本
 # google
 # anthropic
